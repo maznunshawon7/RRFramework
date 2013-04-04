@@ -16,19 +16,3 @@ ul, ol {margin:15px;margin-right:0}
 .floatleft {float:left}
 .floatright {float:right}
 .column {transition: all 0.9s ease 0s;-moz-transition: all 0.9s ease 0s;-webkit-transition: all 0.9s ease 0s;-o-transition: all 0.9s ease 0s;}
-
-.mainmenu {min-height:35px}
-#nav ul {display: none;margin:0;z-index:9999;list-style:none}
-#nav li:hover > ul {display: block;}
-#nav {margin:0;padding:0;list-style: none; position: relative; display: inline-table;}
-#nav:after {content: ""; clear: both; display: block;	}
-#nav li {float: left;border-right:1px solid #ccc}
-#nav li a {display: block; padding: 0 15px; color: #000; text-decoration: none;position:relative;z-index:99999;font-size: 12px;}
-#nav ul {background: #f1f1f1; border-radius: 0px; padding: 0; position: absolute; top: 100%;}
-#nav ul li {float: none; border-bottom: 1px solid #ddd; position: relative;border-right:0px solid #ddd}
-#nav ul li a {color: #666; min-width:160px; padding: 5px 15px; text-transform:none;}	
-#nav ul li a:hover {color:#000}
-#nav ul ul {position: absolute; left: 100%; top:0;}
-
-.button {border:none}
-.fix {overflow:hidden;}
